@@ -15,6 +15,10 @@
   padding: 10px;
 }
 
+.filters div:last-child {
+  border-right: none;
+}
+
 .filters div h3 {
   font-weight: 600;
 }
@@ -33,6 +37,7 @@
   border: none;
   border-radius: 4px;
   margin-right: 30px;
+  margin-left: auto;
   cursor: pointer;
 }
 

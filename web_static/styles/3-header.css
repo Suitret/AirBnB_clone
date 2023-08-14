@@ -6,9 +6,13 @@ header {
 }
 
 .logo {
+  background-image: url("../images/logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left center;
   display: inline-block;
-  width: 100px;
-  height: 30px;
+  width: 100%;
+  height: 70px;
   margin-left: 20px;
-  vertical-align: middle;
+  vertical-align: auto;
 }
